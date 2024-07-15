@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.header h1{
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+.header p{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+form label , form input{
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0 ;
+}
+form input{
+    padding: 7px;
+}
+form button{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: #0B5ED7;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+form button:hover ,.clear_all:hover ,.update:hover ,tr td button:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 18px;
+    background-color: aliceblue;
+    padding: 20px 0;
+}
+tbody tr th{
+    padding: 8px 0;
+}
+tr td button{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    outline: none;
+    border: none;
+}
+.update{
+    background-color: orange;
+    color: black;
+}
+.clear{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1%;
+}
+.clear_all{
+    width:47%;
+    gap: 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
